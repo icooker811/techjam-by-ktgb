@@ -1,0 +1,20 @@
+This is a set of scripts of 'techjam-online-audition-data-track'
+
+To run the script:
+1. Please install R package: v(3.4.1)
+2. install package 'e1071': install.packages('e1071')
+3. Each scipts split into  its folder; 
+
+** Important **
+Please check the workdir with work directory;
+if not plaese change workdir in line 1 of the scripts: # setwd("~/Documents/workspace/R") to setwd("{your-directory}")
+
+4. To run each scipts please follows:
+	1) Problem 1 - Non-Performing Loan Flag Prediction from Credit Card Information
+	1.1 move all of your data into directory: {your-directory}/data/1/*
+	1.2 plase insert line1 of 'tj_01_training.csv' with: card_no,class
+	1.3 plase insert line1 of 'tj_01_test.csv' with: card_no
+	1.4 the result is in {your-directory}/data/1/1.txt
+
+5. To run the scripts with command line use: ex: Rscript {solution1.R} 
+6. Enjoy :D
